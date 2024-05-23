@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caio & Isa</title>
+    <link rel="stylesheet" href="./css/recado.css">
+    <link rel="icon" href="../img/logo.png" type="icon/png">
+</head>
+
+<body>
+
+    <header>
+        <h1>Caio & Isabele</h1>
+    </header>
+
+    <nav class="menu">
+        <input type="checkbox" class="menu-fakeT">
+
+        <div class="menu-lines">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul>
+            <li><a href="../index.html">Página Inicial</a></li>
+            <li><a href="./NH.html">Nossa História</a></li>
+            <li><a href="./lista.html">Lista</a></li>
+            <li><a href="./Memo.html">Memórias</a></li>
+            <li><a href="./recado.html">Recadinho</a></li>
+
+        </ul>
+    </nav>
+
+    <img id="carta" src="../img/carta.png" alt="Carta" onclick="openModal()">
+
+    <div id="modal" class="modal">
+        <div class="modal2">
+            <span class="close" onclick="closeModal()"></span>
+            <video controls width="100%">
+                <source src="../vid/cabrito-2.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
